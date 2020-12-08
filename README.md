@@ -78,7 +78,7 @@ Instructions on setting up the Robot can be found here - https://youtu.be/8scKLH
 
 ![alt text][pic3]
 
-[pic3]: https://github.com/opemipoadigun/CS207fall2020-Project/blob/main/img/fritzing%20breadboard%20sketch.png
+[pic3]: 
 
 Usage
 * Plug in both Arduino Unos 
