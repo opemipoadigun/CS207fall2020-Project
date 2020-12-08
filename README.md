@@ -1,6 +1,10 @@
 # CS207fall2020 PROJECT
 
-This project is a lcd and laptop controlled drawing robot. It was built due to my interest in integrating art into computer science and this serves as a way to do so. The original project was devloped by DIY Machines on Youtube.com [1] although with the addition of the lcd controller as a modification. An SD card modification can also be made to the project making it fully usable wthout a laptop connected. This i plan to do in the nearest future.
+This project is a lcd and laptop controlled drawing robot. It was built due to my interest in integrating art into computer science and this serves as a way to do so. The original project was devloped by DIY Machines on Youtube.com [1] although with the addition of the lcd controller as a modification.
+
+This modification allows me to be able to control the drawing robot with basic commands without it being connected to a computer. 
+
+An SD card modification which streams the gcode from the controller arduino to the arduino controlling the robot can also be made to the project making it fully usable without a laptop connected. This I plan to do in the nearest future.
 
 The completed project should look something like this:
 
@@ -67,8 +71,11 @@ and most items are also on Amazon
 # Build Instructions
 
 Building tutorial by DIY Machines can be found here - https://youtu.be/XYqx5wg4oLU
+
 * Note: There is a difference in the overall wiring of my project compared to the one in the link. My project wiring can be found in the Breadboard and Schematic below 
+
 Instructions on setting up the Robot and making gcode can be found here - https://youtu.be/8scKLHz77Lg
+
 * Note: Keep the Tx and RX pins disconnected while setting up the robot.
 After testing that the robot works fine, upload the lcdtest.ino file located under build into the second arduino and then have the jumper wire connetced to tx should be put into 2 on the second arduino and the jumper wire connected to rx should be plugged into 3 
 
