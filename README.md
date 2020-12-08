@@ -104,4 +104,4 @@ After testing that the robot works fine, upload the lcdtest.ino file located und
 * Click Play Under Gcode on chilipeppr
 
 # Credits
-* DIY MACHINES - https://www.diymachines.co.uk/arduino-cnc-drawing-machine
+* DIY MACHINES (For the assembling of the robot as well as getting it to work) - https://www.diymachines.co.uk/arduino-cnc-drawing-machine
