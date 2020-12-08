@@ -28,6 +28,9 @@ Dependencies:
 * Serial port josn - update the link here
 
 Bill of Materials:
+
+Links to most of these can be found at - https://github.com/DIY-Machines/CNC-DrawingMachine
+
 * 8 x15 x 45mm Linear Bearing (x2)
 * 8 x 15 x 25mm Linear Bearing (x1)
 * 12v Nema 17 stepper motors (x2)
