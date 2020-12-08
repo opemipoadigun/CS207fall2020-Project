@@ -64,6 +64,8 @@ Links to most of these can be found at - https://github.com/DIY-Machines/CNC-Dra
 
 # Build Instructions
 
+Building tutorial by DIY Machines can be found here - https://youtu.be/XYqx5wg4oLU
+Instructions on setting up the Robot can be found here - https://youtu.be/8scKLHz77Lg  
 
 * Breadboard and schematics:
 
