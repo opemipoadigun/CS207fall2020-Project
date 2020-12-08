@@ -77,8 +77,10 @@ Building tutorial by DIY Machines can be found here - https://youtu.be/XYqx5wg4o
 Instructions on setting up the Robot and making gcode can be found here - https://youtu.be/8scKLHz77Lg
 
 * Note: Keep the Tx and RX pins disconnected while setting up the robot.
-After testing that the robot works fine, upload the lcdtest.ino file located under build into the second arduino and then have the jumper wire connetced to tx should be put into 2 on the second arduino and the jumper wire connected to rx should be plugged into 3.
 
+After testing that the robot works fine, upload the lcdtest.ino file located under build into the second arduino and then have a jumper wire connetced to tx on the robot arduino to pin 2 on the second arduino and likewise from rx to pin 3.
+
+* Note: Always have Grbl uploaded on the Arduino connected to the cnc shield
 
 * Breadboard and schematics:
 
