@@ -77,7 +77,7 @@ Building tutorial by DIY Machines can be found here - https://youtu.be/XYqx5wg4o
 Instructions on setting up the Robot and making gcode can be found here - https://youtu.be/8scKLHz77Lg
 
 * Note: Keep the Tx and RX pins disconnected while setting up the robot.
-After testing that the robot works fine, upload the lcdtest.ino file located under build into the second arduino and then have the jumper wire connetced to tx should be put into 2 on the second arduino and the jumper wire connected to rx should be plugged into 3 
+After testing that the robot works fine, upload the lcdtest.ino file located under build into the second arduino and then have the jumper wire connetced to tx should be put into 2 on the second arduino and the jumper wire connected to rx should be plugged into 3.
 
 
 * Breadboard and schematics:
@@ -90,7 +90,7 @@ After testing that the robot works fine, upload the lcdtest.ino file located und
 
 [pic3]: https://github.com/opemipoadigun/CS207fall2020-Project/blob/main/img/fritzing%20breadboard%20sketch.png
 
-Usage
+# Usage
 * Plug in both Arduino Unos 
 * Plug in cnc shield
 * Home and zero Axes of robot from lcd screen
@@ -103,5 +103,5 @@ Usage
 * Make sure to change Arduino on chilipeppr to grbl and 115200 baud
 * Click Play Under Gcode on chilipeppr
 
-Credits
+# Credits
 * DIY MACHINES - https://www.diymachines.co.uk/arduino-cnc-drawing-machine
