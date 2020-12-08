@@ -54,6 +54,10 @@ and most items are also on Amazon
 * Idler Wheel - 5mm Bore (1)
 * Wooden panel to mount project at least 36x42cm (I used a 24"x16" board from RONA)
 *	Adafruit Standard LCD - 16x2 White on Blue
+*	Soldering iron and soldering wire
+*	Electric Tape
+*	Female connector to male connector jumper wires
+*	Male connector to male connector jumper wires
 
 ## Nuts, bolts and screws needed:
 * M5 x 25mm (x2)
