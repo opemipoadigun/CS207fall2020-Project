@@ -30,13 +30,15 @@ Dependencies:
 Bill of Materials:
 
 Links to most of these can be found at - https://github.com/DIY-Machines/CNC-DrawingMachine
+or on Amazon
 
 * 8 x15 x 45mm Linear Bearing (x2)
 * 8 x 15 x 25mm Linear Bearing (x1)
 * 12v Nema 17 stepper motors (x2)
 * GT2 Timing belt and pulleys
 * Micro servo (x1)
-* Arduino Uno (x1)
+* Arduino Uno (x2)
+* Long breadboard (X1)
 * Stepper drivers - TMC2208 (x2)
 * Contact switch (x2)
 * Arduino CNC Shield (x1)
@@ -65,6 +67,7 @@ Links to most of these can be found at - https://github.com/DIY-Machines/CNC-Dra
 # Build Instructions
 
 Building tutorial by DIY Machines can be found here - https://youtu.be/XYqx5wg4oLU
+* Note there is a difference in the overall wiring of my project compared to the one in the link. My project wiring can be found in the Breadboard and Schematic below 
 Instructions on setting up the Robot can be found here - https://youtu.be/8scKLHz77Lg  
 
 * Breadboard and schematics:
