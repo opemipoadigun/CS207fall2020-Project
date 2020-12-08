@@ -21,16 +21,16 @@ The completed project should look something like this:
 # Requirements and Materials
 
 Dependencies:
-* Grbl library - https://github.com/DIY-Machines/CNC-DrawingMachine/tree/master/grbl-mi
+* Grbl library - https://github.com/opemipoadigun/CS207fall2020-Project/tree/main/libraries
 * Grbl Config - https://github.com/DIY-Machines/CNC-DrawingMachine/blob/master/GRBL%20Config
-* Adafruit Lcd Screen libraries and examples - https://learn.adafruit.com/rgb-lcd-shield 
-* Inkcape extension to make gcode - https://github.com/DIY-Machines/CNC-DrawingMachine/tree/master/MI%20Inkscape%20Extension
-* Serial port josn - update the link here
+* Adafruit Lcd Screen libraries and examples - https://github.com/opemipoadigun/CS207fall2020-Project/tree/main/libraries
+* Inkcape extension to make gcode - https://github.com/opemipoadigun/CS207fall2020-Project/tree/main/src
+* Serial port josn - https://github.com/opemipoadigun/CS207fall2020-Project/tree/main/serial-port-json-server-1.96_windows_386
 
 Bill of Materials:
 
 Links to most of these can be found at - https://github.com/DIY-Machines/CNC-DrawingMachine
-or on Amazon
+and most items are also on Amazon
 
 * 8 x15 x 45mm Linear Bearing (x2)
 * 8 x 15 x 25mm Linear Bearing (x1)
@@ -67,8 +67,11 @@ or on Amazon
 # Build Instructions
 
 Building tutorial by DIY Machines can be found here - https://youtu.be/XYqx5wg4oLU
-* Note there is a difference in the overall wiring of my project compared to the one in the link. My project wiring can be found in the Breadboard and Schematic below 
-Instructions on setting up the Robot can be found here - https://youtu.be/8scKLHz77Lg  
+* Note: There is a difference in the overall wiring of my project compared to the one in the link. My project wiring can be found in the Breadboard and Schematic below 
+Instructions on setting up the Robot and making gcode can be found here - https://youtu.be/8scKLHz77Lg
+* Note: Keep the Tx and RX pins disconnected while setting up the robot.
+After testing that the robot works fine, upload the lcdtest.ino file located under build into the second arduino and then have the jumper wire connetced to tx should be put into 2 on the second arduino and the jumper wire connected to rx should be plugged into 3 
+
 
 * Breadboard and schematics:
 
@@ -87,6 +90,7 @@ Usage
 * Drag and Drop gcode into chilipeppr
 * Make sure to have your pencil, pen or marker in place on the robot 
 * Run serial-port-json-server-1.96_windows_386 or the one for other operating system which can be found on chilipeppr
+* Make sure to detach the pin 2 and 3 from the lcd arduino 
 * Select Arduino connected to the computer and also the cnc shield
 * Home and Zero Axes of robot on chilipeppr
 * Make sure to change Arduino on chilipeppr to grbl and 115200 baud
