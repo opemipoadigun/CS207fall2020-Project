@@ -86,7 +86,7 @@ Usage
 * Home and zero Axes of robot from lcd screen
 * Drag and Drop gcode into chilipeppr
 * Make sure to have your pencil, pen or marker in place on the robot 
-* Run serial-port-json-server-1.96_windows_386
+* Run serial-port-json-server-1.96_windows_386 or the one for other operating system which can be found on chilipeppr
 * Select Arduino connected to the computer and also the cnc shield
 * Home and Zero Axes of robot on chilipeppr
 * Make sure to change Arduino on chilipeppr to grbl and 115200 baud
